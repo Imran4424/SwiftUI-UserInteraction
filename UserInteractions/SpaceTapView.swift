@@ -18,6 +18,7 @@ struct SpaceTapView: View {
             // although, onTap in applied on whole VStack
             // Only "Hello" and "World" will response
             // Spacer() will not response since it's void
+            // but we can use .contentShape() modifier to change this
             print("VStack tapped")
         }
     }
