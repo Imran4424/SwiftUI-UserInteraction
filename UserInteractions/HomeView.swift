@@ -11,11 +11,13 @@ struct HomeView: View {
     @State private var index = 0
     
     let viewTitle = [
-        "ZStackUserInteractionView"
+        "ZStackUserInteractionView",
+        "SpaceTapView"
     ]
     
     let viewList: [AnyView] = [
-        AnyView(ZStackUserInteractionView())
+        AnyView(ZStackUserInteractionView()),
+        AnyView(SpaceTapView())
     ]
     
     var body: some View {
