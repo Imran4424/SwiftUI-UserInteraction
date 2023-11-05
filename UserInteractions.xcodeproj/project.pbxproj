@@ -11,6 +11,7 @@
 		1D2C4E992AF73F0000E160A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E982AF73F0000E160A6 /* HomeView.swift */; };
 		1D2C4E9B2AF73F0100E160A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2C4E9A2AF73F0100E160A6 /* Assets.xcassets */; };
 		1D2C4E9E2AF73F0100E160A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2C4E9D2AF73F0100E160A6 /* Preview Assets.xcassets */; };
+		1D2C4EA52AF7424300E160A6 /* ZStackUserInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4EA42AF7424300E160A6 /* ZStackUserInteractionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1D2C4E982AF73F0000E160A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1D2C4E9A2AF73F0100E160A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2C4E9D2AF73F0100E160A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D2C4EA42AF7424300E160A6 /* ZStackUserInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackUserInteractionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1D2C4E962AF73F0000E160A6 /* UserInteractionsApp.swift */,
 				1D2C4E982AF73F0000E160A6 /* HomeView.swift */,
+				1D2C4EA42AF7424300E160A6 /* ZStackUserInteractionView.swift */,
 				1D2C4E9A2AF73F0100E160A6 /* Assets.xcassets */,
 				1D2C4E9C2AF73F0100E160A6 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D2C4E992AF73F0000E160A6 /* HomeView.swift in Sources */,
+				1D2C4EA52AF7424300E160A6 /* ZStackUserInteractionView.swift in Sources */,
 				1D2C4E972AF73F0000E160A6 /* UserInteractionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
